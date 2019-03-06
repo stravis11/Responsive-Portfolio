@@ -1,83 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <meta charset="UTF-8">
+  <title>About Me</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <!-- navbar -->
-
-        <nav class="navbar navbar-expand-sm fixed-top">
-            <a class="navbar-brand btn-outline-secondary" href="index.html">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav mr-4">
-                    <li class="nav-item">
-                        <a class="nav-link btn-outline-secondary" data-value="about" href="index.html">About</a> </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn-outline-secondary" data-value="portfolio"
-                            href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn-outline-secondary" data-value="contact" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-
-        <div class="row">
-            <div class="col-lg-3 top-custom">
-
-                <img src="./assets/images/me.jpg" alt="Steve Travis"  class="img-thumbnail">
-            </div>
-            <div class="col-lg-9 jumbotron top-custom">
-                <h2>About Me</h2>
-                <p class="lead">
-                    <p>
-                        I’m originally from Ohio and moved to Atlanta in 1999, during the height of the Y2K
-                        scare. I’ve worked at Georgia Tech for almost 20 years doing systems administration support for
-                        the GT
-                        Police
-                        Department. My interests include anything technology related, science fiction, history,
-                        hockey, and
-                        traveling. I’ve recently decided to exercise my brain and learn computer programming.
-                        I’m currently
-                        attending the Georgia Tech Coding Bootcamp with the goal of becoming a full stack
-                        developer.
-                    </p>
-                    <div class="col-md-3">
-
-                    </div>
-
-                    <a class="btn btn-primary btn-lg button-custom" href="portfolio.html" role="button">My Portfolio</a>
-            </div>
-
-
-
-        </div>
+  <div id="header">
+    <div class="name">
+      <h2>Steve Travis</h2>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <div class="topnav">
+      <a href="portfolio.html">Portfolio</a>
+      <a href="index.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+  <div id="content">
+    <div class="about">
+      <h2>About Me</h2>
+    </div>
+    <img class="image" src="assets/images/me.jpg" alt="Steve Travis" width="150" height="150">
+    <div id="paragraph">
+      <p>I’m originally from Ohio and moved to Atlanta in 1999, during the height of the Y2K scare. <a href="https://www.youtube.com/watch?v=x0bBYK-7ZiU" target="_blank">That was fun.</a> I’ve
+        worked at Georgia Tech for almost 20 years doing systems administration support for the GT Police Department. My
+        interests include anything technology related, science fiction, history, hockey, and traveling. I’ve recently
+        decided to exercise my brain and learn computer programming. I’m currently attending the Georgia Tech Coding
+        Bootcamp with the goal of becoming a full stack developer. That’s pretty much <a href="https://www.youtube.com/watch?v=2E6uGkotqKA" target="_blank">me in a nutshell.</a></pI>
+    </div>
+
+    <div class="footer">Copyright &copy 2019
+    </div>
+  </div>
+
 </body>
 
 </html>
