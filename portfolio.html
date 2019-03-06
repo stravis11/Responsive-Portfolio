@@ -1,46 +1,113 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <title>Portfolio</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 
   </style>
 </head>
 
+
 <body>
-  <div id="header">
-    <div class="name">
-      <h2>Steve Travis</h2>
-    </div>
-    <div class="topnav">
-      <a href="portfolio.html">Portfolio</a>
-      <a href="index.html">About</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </div>
-  <div id="content">
-    <div class="about">
-      <h2>Portfolio</h2>
-    </div>
-    <div id="grid">
-      <div class="box a"><img src="assets/images/calculator.jpg" alt="Calculator" width="200" height="150">
-        <p class="text">Calculator</p>
+  <div class="container">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm fixed-top ">
+      <a class="navbar-brand btn-outline-secondary" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-4">
+          <li class="nav-item">
+            <a class="nav-link btn-outline-secondary" data-value="about" href="index.html">About</a> </li>
+          <li class="nav-item">
+            <a class="nav-link btn-outline-secondary" data-value="portfolio" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn-outline-secondary" data-value="contact" href="contact.html">Contact</a> </li>
+        </ul>
       </div>
-      <div class="box b"><img src="assets/images/earphones.jpg" alt="Music App" width="200" height="150">
-        <p class="text">Music App</p>
-      </div>
-      <div class="box c"><img src="assets/images/laptop.jpg" alt="RPG Game" width="200" height="150">
-        <p class="text">RPG Game</p>
-      </div>
-      <div class="box d"><img src="assets/images/technics.jpg" alt="Circuit Tester" width="200" height="150">
-        <p class="text">Circuit Tester</p>
-      </div>
+    </nav>
+    <!-- End Navbar-->
+
+    <!-- Page Heading -->
+    <div class="row">
+      <h1 class="mt-5 color-custom2">My Portfolio
+        <small></small>
+      </h1>
     </div>
-  </div>
-  <div class="footer">Copyright &copy 2019</div>
+    <div class="row">
+      <div class="col-lg-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="assets/images/calculator.jpg" alt="Calculator App"></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Calculator</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
+              gravida pellentesque urna varius vitae.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="assets/images/earphones.jpg" alt="Music App"></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Music App</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla
+              perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates
+              quae, necessitatibus unde temporibus.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="assets/images/laptop.jpg" alt="RPG Game"></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">RPG Game</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
+              gravida pellentesque urna varius vitae.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="assets/images/technics.jpg" alt="Circuit Tester"></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Circuit Tester</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla
+              perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates
+              quae, necessitatibus unde temporibus.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
