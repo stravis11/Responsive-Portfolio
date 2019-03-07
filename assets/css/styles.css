@@ -63,8 +63,8 @@ h {
 
 /* Style content section */
 #content {
-  max-width: 960px;
-  min-width: 960px;
+  width: auto;
+  height: 75%;
   background-color: white;
   margin: 75px auto;
 }
@@ -177,7 +177,7 @@ form {
         background-color: red;
     }
    #content {
-       width: 50px;
+       max-width: 75%;
    }
   }
 /*
@@ -190,6 +190,16 @@ form {
         background-color: blue;
     }
 
+    #content .paragraph .image{
+      float: left;
+      width: 50%;
+      height: 50%;
+          
+    }
+    #content .paragraph {
+      text-align: left; 
+      width: 90%;
+    }
    
 
 }  
@@ -201,6 +211,18 @@ form {
     #header .topnav{ 
         max-width: 640px;
         background-color: green;
+    }
+
+    #content .paragraph .image{
+      text-align: center;
+       width: 100%;
+      
+          
+    }
+    #content .paragraph {
+      text-align: left; 
+      width: 90%;
+      
     }
   
     .topnav{ 
