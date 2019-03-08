@@ -174,7 +174,7 @@ h {
 @media screen and (max-width: 980px) {
     #header .topnav{  
         max-width: 980px;
-        background-color: red;
+        
     }
    
     body {
@@ -229,7 +229,7 @@ h {
   
   #header .topnav{  
         max-width: 768px;
-        background-color: blue;
+        
     }
 
     #content .paragraph .image{
@@ -283,7 +283,7 @@ h {
   @media screen and (max-width: 640px) {
     #header .topnav{ 
         max-width: 640px;
-        background-color: green;
+        
     }
 
     body {
